@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CgpaCalculatinActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center">
+
+    <EditText
+        android:layout_margin="20dp"
+        android:id="@+id/previouscgpaID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Previous CGPA"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:layout_margin="20dp"
+        android:id="@+id/creditearnedID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Credit Earned"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/cgparesultID"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="CGPA is :"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:onClick="cgpaprocess"
+        android:id="@+id/cgpa_calculateID"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#3d4cf4"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:id="@+id/my_name"
+        android:layout_marginTop="90dp"
+        android:gravity="bottom"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed By Seemanto"/>
+
+
+</LinearLayout>

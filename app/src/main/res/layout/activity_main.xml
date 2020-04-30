@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/logoID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/textviewID"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How many courses have you done this semester?"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/secondbuttonID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 Courses"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="#3d4cf4"
+        android:textColor="#ffffff"
+        android:onClick="processone"/>
+
+    <Button
+        android:id="@+id/thirdbuttonID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3 Courses"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="#3d4cf4"
+        android:textColor="#ffffff"
+        android:onClick="processtwo"/>
+
+    <Button
+        android:id="@+id/fourthbuttonID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4 Courses"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="#3d4cf4"
+        android:textColor="#ffffff"
+        android:onClick="fourthprocess"/>
+
+    <Button
+        android:id="@+id/fifthbuttonID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5 Courses"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="#3d4cf4"
+        android:textColor="#ffffff"
+        android:onClick="fifthprocess"/>
+
+
+
+
+
+
+
+
+</LinearLayout>
